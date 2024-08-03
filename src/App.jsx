@@ -1,12 +1,15 @@
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import WelcomeSection from "./components/WelcomeSection/WelcomeSection";
+
+import Message from "./Message/Message";
 
 const App = () => {
   return (
     <>
       <Header />
-      <WelcomeSection />
+      <Message title="Maria" text="Hello World" />
+      <Message title="Petro" text="Hello World" />
+      <Message title="Petro" text="Hello World" />
       <Footer />
     </>
   );
