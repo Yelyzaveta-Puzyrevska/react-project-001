@@ -4,12 +4,13 @@ import Header from "./components/Header/Header";
 import Message from "./Message/Message";
 
 const App = () => {
+  const isOnline = true;
   return (
     <>
-      <Header />
-      <Message title="Maria" text="Hello World" />
-      <Message title="Petro" text="Hello World" />
-      <Message title="Petro" text="Hello World" />
+      <Header /> {isOnline && <h1>Welcome Back!</h1>}
+      <Message title="Maria" text="Hello World" online={true} />
+      <Message title="Petro" text="Hello World" online={false} />
+      <Message title="Ivan" text="Hello World" online={false} />
       <Footer />
     </>
   );
