@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  font-weight: bold;
+  background-color: teal;
+}
+.list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}

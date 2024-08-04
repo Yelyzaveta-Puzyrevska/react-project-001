@@ -1,0 +1,9 @@
+.wrapper {
+  box-shadow: 0 0 8px teal;
+}
+
+.list_title {
+  text-align: center;
+  font-weight: bold;
+  color: green;
+}
