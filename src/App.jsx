@@ -1,6 +1,7 @@
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import { List } from "./components/List/List";
+import Modal from "./components/Modal/Modal";
 
 import Message from "./Message/Message";
 
@@ -69,9 +70,17 @@ const App = () => {
 
   return (
     <>
-      <Header /> {isOnline && <h1>Welcome Back!</h1>};
+      <Header />
+      <div class="test">
+        <h2>Hallo</h2>
+        <button>Click</button>
+      </div>
+      {isOnline && <h1>Welcome Back!</h1>};
       <List data={filmData} />
       <List data={goodsData} />
+      <Modal>
+        <h2>Regkjhbhbhbbn</h2>
+      </Modal>
       {/* {messageData.map((message) => (
         <Message
           key={message.id}
